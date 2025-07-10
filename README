@@ -1,0 +1,30 @@
+Sentiment Analysis on Twitter Data using Logistic Regression
+This project demonstrates how to build a sentiment analysis model using the Sentiment140 Twitter dataset. The model is trained using Logistic Regression, and it classifies tweets into positive and negative sentiments after preprocessing and vectorization.
+
+📝 Project Overview
+This sentiment analysis system leverages machine learning to determine whether a given tweet expresses a positive or negative sentiment. The Sentiment140 dataset contains 1.6 million pre-labeled tweets, providing a robust foundation for training and evaluating the model.
+
+📂 Dataset
+Source: Kaggle - Sentiment140 Dataset
+
+The dataset contains 1,600,000 tweets.
+
+Original labels: 0 = Negative, 4 = Positive → converted to 0 = Negative, 1 = Positive
+
+Only the tweet text and sentiment label are used for model training.
+
+📌 Features
+Preprocessing: Cleaning text, lowercasing, removing stopwords, stemming
+
+Vectorization using TF-IDF
+
+Train-test split with sklearn
+
+Model training with LogisticRegression
+
+Accuracy evaluation on both training and testing data
+
+Model serialization using pickle
+
+Prediction on new tweets
+
